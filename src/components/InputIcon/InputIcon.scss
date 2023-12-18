@@ -1,0 +1,14 @@
+// Shows the icon on the right side of the input's label
+.input_icon{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.error_icon{
+    height: 15px;
+    width: 15px;
+    transition: all 0.3s ease-in-out;
+}

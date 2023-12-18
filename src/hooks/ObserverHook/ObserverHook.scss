@@ -1,0 +1,37 @@
+.observer_hide{
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateY(15px);
+}
+.observer_show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0px);
+    transition: all 1s ease-in-out;
+}
+.observer_column{
+    display: flex;
+    flex-direction: column;
+}
+.observer_row{
+    display: flex;
+    flex-direction: row;
+}
+.observer_center_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.observer_center_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// @media(prefers-reduced-motion){
+//     .observer_show{
+//         transition: none;
+//     }
+// }

@@ -1,0 +1,44 @@
+.button_wrapper_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit_button{
+    border-radius: 5px;
+    background-color: #fff;
+    color: #646cff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 20px;
+    // slightly thinker border for accessibility
+    border: 1.2px solid #646cff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: #646cff;
+        color: #fff;
+    }
+}
+
+@media(prefers-color-scheme: dark){
+    .submit_button{
+        background-color: #121212;
+        border: 1.2px solid #ffffff;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 400px){
+    .submit_col{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
